@@ -35,7 +35,7 @@ Object Dot Notations = a way to access properties within objects using a "Static
             };
 
             car.weight = "1577kg";
-            car["color"] = "red;
+            car["color"] = "red";
             delete car ["trim"];
 
             console.log(car.color) // 'blue'
@@ -47,13 +47,13 @@ Object Methods are functions that directly attach to an object.
 
 To add an object property that isn't currently present, we can simply add the property by giving it a value. 
 - Console.table() does not change the data, but rather organizes
-(see line 34)
+(see line 37)
 
 To update an object property, we can simply redefine the property by giving it a value.
-(see line 35)
+(see line 38)
 
 To delete an object property, use the delete operator to remove it from the object 
-(see line 36)
+(see line 39)
 
 *See demonstration.js file*
 
